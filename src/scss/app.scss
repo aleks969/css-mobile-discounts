@@ -31,3 +31,13 @@ html {
 .navbar {
   position: fixed;
 }
+
+.discounts {
+  display: none;
+  visibility: hidden;
+
+  @media (min-width: 600px) {
+    display: block;
+    visibility: visible;
+  }
+}
